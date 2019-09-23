@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600, 900&display=swap');
+
+.loginWrapper {
+    background: url(https://dd7tel2830j4w.cloudfront.net/f1526328296167x548631487879902140/Background%20Blue.svg) center top / cover no-repeat rgba(255, 255, 255, 0);    max-width: unset !important;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+.nav {
+    padding-top: 1.2rem;
+    border-bottom: 1px solid #004085;
+    padding-bottom: .5rem;
+}
+
+.logo {
+    color: #17a2b8;
+    margin-right: 50%;
+    font-size: 20px;
+}
+
+.logoFromLogin {
+    color: #1dda49;
+    margin-right: 50%;
+    font-size: 20px;
+}
+
+.logo:hover {
+    color: #17a2b8;
+    opacity: 1;
+}
+
+.logoFromLogin:hover {
+    color: #1dda49;
+    opacity: .5;
+}
+
+.home {
+    position: absolute;
+    left: 4rem;
+}
+
+a {
+    font-weight: 600;
+    color: #004085;
+    font-size: 17px;
+    font-family: 'Muli', sans-serif;
+    margin-left: 2rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #004085;
+    opacity: .5;
+}
+
+.logout {
+    border: 1px solid #2663a5;
+    padding: 0 5px;
+    border-radius: 10px;
+    color: #e9ecef;
+    background-color: #2663a5;
+    font-size: 15px;
+    font-weight: 600;
+    height: 26px;
+}
+
+.logout:hover {
+    background-color: #5498e0;
+    border-color: #5498e0;
+    color: #fff;
+}

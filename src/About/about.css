@@ -1,0 +1,42 @@
+* {
+    font-family: 'Muli', sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px !important;
+    color: #7d45b9;
+    font-weight: 300;
+}
+
+.email {
+    margin-left: 1rem;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.aboutCover {
+    width: 40%;
+    position: initial;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

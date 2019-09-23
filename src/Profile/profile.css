@@ -1,0 +1,117 @@
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    width: 20rem !important;
+}
+
+.icon {
+    margin-left: 1.5rem;
+    width: 1rem !important;
+}
+
+.emptySquare {
+    width: 2.5rem;
+}
+
+.suggestionsContainer {
+    width: 20rem;
+    border: 1px solid #ced4da;
+    border-top: none;
+    overflow: hidden;
+    padding-top: 4px;
+    border-radius: .25rem;
+    text-align: left;
+    position: absolute;
+    background-color: #fff;
+    z-index: 3;
+    padding-left: 0.7rem;
+}
+
+.bookRow {
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 0;
+}
+
+.bookRow:hover {
+    background-color: #e9ecef;
+}
+
+.field {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.fieldButtons {
+    margin-top: 0;
+    margin-left: 7rem;
+}
+
+.addBtn {
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    border-radius: 10px !important;
+    border-color: #17a2b8 !important;
+    margin-right: 1rem;
+}
+
+.deletBtn {
+    background-color: #f8f9fa !important;
+    color: #b10699 !important;
+    font-weight: 400 !important;
+    border-radius: 10px !important;
+    border-color: #b10699 !important;
+}
+
+.recommendBtn {
+    margin-top: 3rem;
+    position: absolute;
+    left: 10rem;
+    padding: 12px !important;
+    border-radius: 15px !important;
+    border-color: #e86526 !important;
+    background-color: #e86526 !important;
+}
+
+.profileContent {
+    position: relative;
+    margin-top: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    flex: 1 0 21%;
+    background-color: #43ABC9;
+    border-radius: 1rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.7rem;
+    padding-bottom: 0;
+}
+
+.image {
+    height: 16rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+    box-shadow: -1px 1px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bookTitle {
+    font-weight: 600;
+    color: #fff;
+}
+
+.bookAuthor {
+
+}
+
+
+

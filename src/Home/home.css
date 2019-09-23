@@ -1,0 +1,217 @@
+
+.mainDiv {
+    background-color: aquamarine;
+}
+
+.cover {
+    width: 100%;
+    background: no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #004085;
+    top: 39%;
+    left: 6%;
+    position: absolute;
+}
+
+.text {
+    position: absolute;
+    left: 6%;
+    top: 39%;
+    margin-top: 3rem;
+    text-align: left;
+    color: #46526f;
+}
+
+.startLink {
+    position: absolute;
+    left: 6%;
+    top: 39%;
+    margin-top: 9rem;
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 5px 12px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.startLink:hover {
+    color: #fff;
+}
+
+.secondHalf {
+    background-image: linear-gradient(
+        #fff, #0a889c);
+    height: 47rem;
+}
+
+.container {
+    display: flex;
+    padding-top: 5rem;
+}
+
+.card1, .card2 {
+    width: 50%;
+    height: 13rem;
+    margin: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 40px 40px 40px 120px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25),
+    0 8px 16px -8px rgba(0,0,0,.3),
+    0 -6px 16px -6px rgba(0,0,0,.025);
+    transition-duration: .15s;
+    transition: color .1s ease;
+    
+}
+
+.card1:hover, .card2:hover {
+    box-shadow: 1px 20px 32px 2px rgba(50,50,93,.25),
+    0 8px 16px -8px rgba(0,0,0,.3),
+    1px -9px 14px 13px rgba(0,0,0,.025);
+    margin-top: 13px;
+}
+
+.card1Title {
+    margin-bottom: 1rem;
+    color: #7f5dca;
+}
+
+.card1Logo {
+    width: 7rem;
+    position: absolute;
+    left: 0px;
+    top: 3rem;
+}
+
+.card2Title {
+    margin-bottom: 1rem;
+    color: #b468c1;
+}
+
+.card2Logo {
+    width: 5rem;
+    position: absolute;
+    left: 12px;
+    top: 2.5rem;
+}
+
+p {
+    color: #46526f;
+}
+
+.firstH2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 28px !important;
+    color: #052442;
+    margin-top: 5rem !important;
+}
+
+.secondContainer {
+    display: flex;
+    margin-top: 6rem;
+}
+
+.content {
+    width: 50%;
+    text-align: left;
+    margin-left: 9rem;
+}
+
+.h2_2 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #6772e5;
+}
+
+.h2_3 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #32325d;
+}
+
+.buttons {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.btn1 {
+    background-color: #616cde;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn2 {
+    background-color: #fff;
+    color: #616cde;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    color: #fff;
+}
+
+.btn2:hover {
+    color: #616cde;
+}
+
+.footer {
+    /* height: 20rem; */
+    border-top: 3px solid #8898aa;
+    margin-top: 7rem;
+    display: flex;
+}
+
+.footerRow {
+    display: block;
+    padding-left: 7rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.footerRow p:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Muli', sans-serif;
+    color: #dee2e6;
+}
+
+.footerRow p {
+    font-size: 13px;
+    font-family: 'Muli', sans-serif;
+    color: #adb5bd;
+}
+
+.footerRow a {
+    font-size: 13px;
+    font-family: 'Muli', sans-serif;
+    color: #adb5bd;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+

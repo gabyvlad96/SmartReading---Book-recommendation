@@ -1,0 +1,47 @@
+
+
+.mainDiv {
+    width: 32rem;
+    display: inline-block;
+    background-color: #fff;
+    padding: 3rem;
+    margin-top: 9rem;
+    border-radius: 1rem;
+}
+
+.mainLabel {
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+
+.secondFormGroup {
+    margin-top: -2rem;
+}
+
+.loginButton {
+    width: 100%;
+    background-color: #1e9be7;
+    border: none;
+    margin-top: -2rem;
+    font-weight: 600;
+}
+
+
+.signinButton {
+    width: 100%;
+    background-color: #1edee7;
+    border: none;
+    margin-top: -2rem;
+    font-weight: 600;
+}
+
+.radio {
+    margin-top: 1rem;
+    font-size: smaller;
+}
+
+.radio:hover {
+    color: #1e9be7;
+    text-decoration: underline;
+}
+

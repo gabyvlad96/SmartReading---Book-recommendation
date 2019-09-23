@@ -1,0 +1,88 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:latest",
+        "tslint-eslint-rules",
+        "tslint-clean-code",
+        "tslint-microsoft-contrib",
+        "tslint-sonarts",
+        "tslint-react",
+        "tslint-consistent-codestyle"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-relative-imports": false,
+        "no-import-side-effect": [true, { "ignore-module": "(\\.html|\\.s?css)$" }],
+        "missing-jsdoc": false,
+        "export-name": false,
+        "no-default-export": false,
+        "typedef": false,
+        "interface-name": false,
+        "member-access": false,
+        "quotemark": false,
+        "ordered-imports": false,
+        "import-name": false,
+        "no-duplicate-string": false,
+        "curly": false,
+        "align": false,
+        "no-suspicious-comment": false,
+        "no-submodule-imports": [
+            true,
+            "bootstrap",
+
+            // src modules
+            "common",
+            "error404",
+            "main",
+            "login",
+            "util"
+        ],
+        "no-implicit-dependencies": [
+            true, [
+                // src modules
+                "common",
+                "error404",
+                "main",
+                "login",
+                "util"
+            ],
+            "dev"
+        ],
+        "jsx-curly-spacing": false,
+        "jsx-alignment": false,
+        "jsx-no-multiline-js": false,
+        "variable-name": false,
+        "no-small-switch": false,
+        "switch-final-break": false,
+        "no-http-string": false,
+        "underscore-consistent-invocation": false,
+        "no-backbone-get-set-outside-model": false,
+        "no-object-literal-type-assertion": false,
+        "binary-expression-operand-order": false,
+
+        "one-line": [true, "check-open-brace", "check-whitespace"],
+
+        // eslint-rules
+        "jsx-boolean-value": false,
+        "newline-before-return": false,
+        "no-reserved-keywords": false,
+
+        // microsoft-contrib
+        "react-this-binding-issue": false,
+        "no-increment-decrement": false,
+        "newline-per-chained-call": false,
+        "no-null-keyword": false,
+        "use-simple-attributes": false,
+        "react-a11y-input-elements": false,
+
+        // sonarts
+        "max-union-size": false,
+
+        "no-any": true,
+        "no-unused-variable": [
+            true,
+            { "ignore-pattern": "^unused" }
+          ]
+    },
+    "rulesDirectory": []
+}
